@@ -2,17 +2,18 @@
 
 #### Akan-generator, July 11th 2019
 ## Description
-A web app that generates Akan names for users depending on the gender and birth day.
+A web app that generates Akan names for users based on their gender and birth date.
 ## Setup/Installation Requirements
 Computer or Smartphone.
 Website link : https://i-krypt.github.io/Portfolio/
-#Active links to more of my works
-1.https://drive.google.com/open?id=1kyh8PqipGlCrNC9YbmtbA0Gu3zknhthW
-2.https://github.com/i-Krypt/One-M.git
+# BDD
+* The web app requires the user to fill in their details in a form: i.e Enter date of birth and choose  the individuals gender. 
+* The web app calculates the day of the week the user was born and outputs it. 
+* The web app matches the day of the week with a particular Akan Name and outputs it to the user.
 ## Authors Info
 Sam Nujoma-Software Developer.
 ## Technologies Used
-I used Html,Css and Java for the project
+I used Html,Css and Javascript for the project
 ## Support and contact details
 Contact me via email:vamay505@gmail.com
 ### License
