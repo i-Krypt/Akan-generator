@@ -31,33 +31,35 @@
                         <div class="col-md-6 mx-auto">
         
                             <!-- form card login -->
-                            <div class="card rounded-0">
+                            <div class="card rounded">
                                 <div class="card-header">
                                     <h3 class="mb-0">User Details</h3>
                                 </div>
                                 <div class="card-body">
-                                    <form class="form" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
+                                    <form class="form" role="form" autocomplete="off" id="formLogin" novalidate="" value="" method="POST">
                                         <div class="form-group">
                                             <label for="uname1">Date</label>
-                                            <input type="text" class="form-control form-control-lg rounded-0" name="uname1" id="uname1" required="">
+                                            <input type="number" class="form-control form-control-lg rounded" name="uname1" id="uname1" required="">
                                             <div class="invalid-feedback">Oops, you missed this one.</div>
                                         </div>
                                         <div class="form-group">
                                             <label>Month</label>
-                                            <input type="password" class="form-control form-control-lg rounded-0" id="pwd1" required="" autocomplete="new-password">
+                                            <input type="number" class="form-control form-control-lg rounded" id="month" value="" >
                                             <div class="invalid-feedback">Enter the month too!</div>
                                         </div>
                                         <div class="form-group">
                                                 <label>Year</label>
-                                                <input type="password" class="form-control form-control-lg rounded-0" id="pwd1" required="" autocomplete="new-password">
+                                                <input type="number" class="form-control form-control-lg rounded" id="year" value="" >
                                                 <div class="invalid-feedback">Enter the year of birth.</div>
-                                            </div>
+                                        </div>
                                         <div>
-                                            <label class="custom-control custom-checkbox">
-                                              <input type="checkbox" class="custom-control-input">
-                                              <span class="custom-control-indicator"></span>
-                                              <span class="custom-control-description small text-dark">Remember me on this computer</span>
-                                            </label>
+                                                <form class="form-inline">
+                                                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Gender</label>
+                                                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                                            <option selected>Choose...</option>
+                                                            <option value="1">Male</option>
+                                                            <option value="2">Female</option>
+                                                        </select>
                                         </div>
                                         <button type="submit" class="btn btn-dark btn-lg float-left" id="btnSubmit">Submit</button>
                                     </form>
