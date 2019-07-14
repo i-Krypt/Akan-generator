@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    //Bootstrap
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
@@ -20,9 +20,22 @@
         <p>It is a web application that takes a user's  birthday and calculates the day of the week they were born and then depending on their gender, it outputs their Akan Name and day born. </p>
     </div>
 
-    <form action="">
-
-    </form>
+    <form class="form-inline">
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Gender</label>
+            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+              <option selected>Choose...</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+            
+            </select>
+          
+            <div class="custom-control custom-checkbox my-1 mr-sm-2">
+              <input type="checkbox" class="custom-control-input" id="customControlInline">
+              <label class="custom-control-label" for="customControlInline">Remember my gender</label>
+            </div>
+          
+            <button type="submit" class="btn btn-primary my-1">Submit</button>
+          </form>
 </body>
 
 </html>
