@@ -5,9 +5,8 @@
 A web app that generates Akan names for users based on their gender and birth date.
 ## Setup/Installation Requirements
 Computer or Smartphone.
-##Website link
- : https://i-krypt.github.io/Portfolio/
-# BDD
+Website link : https://i-krypt.github.io/Portfolio/
+##BDD
 * The web app requires the user to fill in their details in a form: i.e Enter date of birth and choose  the individuals gender. 
 * The web app calculates the day of the week the user was born and outputs it. 
 * The web app matches the day of the week with a particular Akan Name and outputs it to the user.
