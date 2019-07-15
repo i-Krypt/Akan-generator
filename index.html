@@ -11,6 +11,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Akan-generator</title>
 </head>
 
@@ -39,39 +40,36 @@
                                     <div class="form-group">
                                         <label for="uname1">Date</label>
                                         <input type="number" class="form-control form-control-lg rounded" name="uname1"
-                                            id="date" required="">
-                                        <div class="invalid-feedback">Oops, you missed this one.</div>
+                                            id="Date" required="">
                                     </div>
                                     <div class="form-group">
                                         <label>Month</label>
-                                        <input type="number" class="form-control form-control-lg rounded" id="month"
+                                        <input type="number" class="form-control form-control-lg rounded" id="Month"
                                             value="">
-                                        <div class="invalid-feedback">Enter the month too!</div>
                                     </div>
                                     <div class="form-group">
                                         <label>Year</label>
-                                        <input type="number" class="form-control form-control-lg rounded" id="year"
+                                        <input type="number" class="form-control form-control-lg rounded" id="Year"
                                             value="">
                                         <div class="invalid-feedback">Enter the year of birth.</div>
                                     </div>
                                     <div>
-                                        <form class="form-inline">
-                                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Gender</label>
-                                            <select class="custom-select my-1 mr-sm-2" id="gender">
-                                                <option selected>Choose...</option>
-                                                <option value="1">Male</option>
-                                                <option value="2">Female</option>
-                                            </select>
+                                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Gender</label>
+                                        <select class="custom-select my-1 mr-sm-2" id="Gender">
+                                            <option selected>Choose...</option>
+                                            <option value="">Male</option>
+                                            <option value="">Female</option>
+                                        </select>
                                     </div>
                                     <br>
                                     <button type="submit" value="Submit" class="btn btn-dark btn-lg float-left"
-                                        id="submitButton" onclick="generateName(); return false">Submit</button>
+                                        id="submitButton" onclick="getName(); return false">Submit</button>
                                 </form>
                                 <h6 class="text-center" id="result"></h6>
                             </div>
                             <!--/card-block-->
                         </div>
-                        <script src="js/script.js"></script>
+                        <script src="script.js"></script>
 </body>
 
 </html>
